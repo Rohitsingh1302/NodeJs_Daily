@@ -1,0 +1,21 @@
+{
+  "name": "node-lpu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon UNIT1/hello.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cookie-session": "^2.1.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "express-validator": "^7.3.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.10"
+  }
+}
