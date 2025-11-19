@@ -20,3 +20,8 @@ app.get('/logout', (req, res) => {
   res.send('Session cleared!');
 });
 app.listen(3000, () => console.log('Server running on http://localhost:3000'));
+// output way:
+// 1. http://localhost:3000/ to visit and increment counter
+// 2. http://localhost:3000/logout to clear the session
+// 3. http://localhost:3000/ to verify counter is reset
+

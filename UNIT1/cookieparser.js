@@ -29,4 +29,5 @@ app.listen(3000, () => console.log('Server running on http://localhost:3000'));
 // 1. http://localhost:3000/ to set the cookie
 // 2. http://localhost:3000/read-cookie to read the cookie
 // 3. http://localhost:3000/clear-cookie to clear the cookie
+// 4. http://localhost:3000/read-cookie to verify cookie is cleared
 
