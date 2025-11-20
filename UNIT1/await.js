@@ -11,3 +11,9 @@ await myLogic();
 console.log("End");
 }
 lpu();
+// Output way:
+// When you run this code, you will see the following output in the console:
+// Start
+// (after 1 second delay) WELCOME TO LPU
+// End
+// This demonstrates the use of async/await to handle asynchronous operations in JavaScript.
