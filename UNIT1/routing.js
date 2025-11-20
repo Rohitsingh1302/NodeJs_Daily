@@ -25,3 +25,15 @@ const PORT = 3000;
 server.listen(PORT,()=> {
     console.log(`Server running at http://localhost:${PORT}`)
 })
+// To test the routing, start the server and navigate to the following URLs in your browser:
+// http://localhost:3000/       -> Home Page
+// http://localhost:3000/about  -> About Page
+
+// http://localhost:3000/contact -> Contact Page
+// http://localhost:3000/unknown -> 404 Page Not Found
+
+// Output way:
+// 1. Start the server: node routing.js
+// 2. Open a web browser and visit the URLs mentioned above to see the respective pages.
+// 3. Observe the output in the browser for each route.
+// 4. Check the terminal for the server running message.
