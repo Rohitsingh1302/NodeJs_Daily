@@ -17,3 +17,7 @@ fs.createReadStream('input.txt', 'utf8')
   .pipe(fs.createWriteStream('output.txt'));
 
 console.log('File transformed to uppercase using streams.');
+// Output:
+// File transformed to uppercase using streams. 
+// After running this code, the content of output.txt will be the uppercase version of input.txt
+// For example, if input.txt contains "Hello World", output.txt will contain "HELLO WORLD"
