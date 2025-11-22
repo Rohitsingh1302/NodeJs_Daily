@@ -10,3 +10,6 @@ async function run(){
     console.log('File Compressed');
 }
 run();
+// Output:
+// File Compressed
+// After running this code, you will find a new file named 'examplee.txt.gz' in the same directory, which is the compressed version of 'examplee.txt' using Gzip compression.   
