@@ -16,7 +16,8 @@ app.post('/submit', (req, res) => {
 app.listen(port,() =>{
     console.log(`Server is running on http://localhost:${port}`);
 });
-
-// To test the POST route, you can use a tool like Postman or curl to send a POST request to http://localhost:3000/submit with a JSON body.
-//output way:= yeh  code ko run krke ..link jo aya jese http://localhost:3000/submit ko postman mai paste krke POST krdena hai,and body--raw mai jake 
-// //{"name":"rohit","age":21} ,paste krdena hai|| output aayega:- hello rohit, you are 21 years old!
+// Output way:
+// 1. Start the server by running this file with Node.js.
+// 2. Use a tool like Postman or curl to send a POST request to http://localhost:3000/submit
+//    with a JSON body like: {"name": "John", "age": 30}
+// 3. You will receive a response: "Hello John, you are 30 years old!"
