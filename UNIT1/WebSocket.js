@@ -26,7 +26,4 @@ console.log('WebSocket server running on ws://localhost:8080');
 // socket.onmessage = (event) => console.log(event.data);
 // socket.send('Hello Server!');
 // Output way:
-// 1. Start the server: node WebSocket.js
-// 2. Connect using a WebSocket client or browser console
-// 3. Send messages and observe server responses
-
+// 1. Run this script: node webSocket.js  
