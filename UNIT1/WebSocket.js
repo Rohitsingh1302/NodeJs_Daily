@@ -29,3 +29,4 @@ console.log('WebSocket server running on ws://localhost:8080');
 // 1. Run this script: node webSocket.js  
 // 2. Open browser console and connect using WebSocket client code above
 // 3. Observe messages exchanged between client and server  
+// --- IGNORE ---
