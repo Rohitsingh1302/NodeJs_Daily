@@ -27,3 +27,4 @@ console.log('WebSocket server running on ws://localhost:8080');
 // socket.send('Hello Server!');
 // Output way:
 // 1. Run this script: node webSocket.js  
+// 2. Open browser console and connect using WebSocket client code above
