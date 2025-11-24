@@ -18,6 +18,6 @@ fs.createReadStream('input.txt', 'utf8')
 
 console.log('File transformed to uppercase using streams.');
 // Output:
-// File transformed to uppercase using streams. 
-// After running this code, the content of output.txt will be the uppercase version of input.txt
-// For example, if input.txt contains "Hello World", output.txt will contain "HELLO WORLD"
+// 1. Create an input.txt file with some lowercase text.
+// 2. Run this script: node uppercaserouting.js
+// 3. Check output.txt to see the transformed uppercase text.
