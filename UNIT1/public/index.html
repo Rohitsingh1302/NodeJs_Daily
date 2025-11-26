@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>User Presence System</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Arial;margin:20px}
+    #users{margin-top:16px}
+    .user{display:flex;align-items:center;gap:8px;margin:6px 0}
+    .dot{width:12px;height:12px;border-radius:50%}
+    .online{background:#28a745}
+    .offline{background:#d9534f}
+    #name{padding:6px;font-size:14px}
+    #join{padding:6px 10px;font-size:14px}
+  </style>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <h2>User Presence</h2>
+  <div>
+    <input id="name" placeholder="Enter your name" />
+    <button id="join">Join</button>
+  </div>
+
+  <div id="users"></div>
+
+  <script>
+    let socket;
+    const nameInput = document.getElementById('name');
+    const joinBtn = document.getElementById('join');
+    const usersDiv = document.getElementById('users');
+
+    function render(users){
+      const entries = Object.entries(users || {});
+      if(entries.length === 0){
+        usersDiv.innerHTML = '<i>No users yet</i>';
+        return;
+      }
+      usersDiv.innerHTML = entries.map(([k,v]) =>
+        `<div class="user"><span class="dot ${v=== 'online' ? 'online':'offline'}"></span><strong>${k}</strong><span style="margin-left:8px;color:#666">${v}</span></div>`
+      ).join('');
+    }
+
+    joinBtn.addEventListener('click', ()=>{
+      const name = nameInput.value && nameInput.value.trim();
+      if(!name) return alert('Please enter a name');
+      if(!socket){
+        socket = io();
+        socket.on('presence', users => render(users));
+      }
+      socket.emit('join', name);
+      joinBtn.disabled = true;
+      nameInput.disabled = true;
+    });
+  </script>
+</body>
+</html>
