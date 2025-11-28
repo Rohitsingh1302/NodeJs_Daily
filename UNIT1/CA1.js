@@ -37,4 +37,5 @@ server.listen(PORT, () => {
 // Client-side code should be placed in the public directory
 // to handle real-time updates and display user presence
 // Example client-side code can be found in public/index.html
+// Ensure to create a public/index.html file to test the functionality
 
