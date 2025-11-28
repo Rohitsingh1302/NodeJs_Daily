@@ -38,4 +38,4 @@ server.listen(PORT, () => {
 // to handle real-time updates and display user presence
 // Example client-side code can be found in public/index.html
 // Ensure to create a public/index.html file to test the functionality
-
+// This code sets up a basic real-time user presence system using Socket.IO
