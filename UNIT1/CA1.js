@@ -41,3 +41,5 @@ server.listen(PORT, () => {
 // This code sets up a basic real-time user presence system using Socket.IO
 // Users can join with a name, and their online/offline status is broadcasted
 // to all connected clients
+// This is a simple implementation and can be extended with more features
+// such as user authentication, more detailed presence information, etc.
