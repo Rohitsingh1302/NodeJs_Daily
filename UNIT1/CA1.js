@@ -39,3 +39,4 @@ server.listen(PORT, () => {
 // Example client-side code can be found in public/index.html
 // Ensure to create a public/index.html file to test the functionality
 // This code sets up a basic real-time user presence system using Socket.IO
+// Users can join with a name, and their online/offline status is broadcasted
