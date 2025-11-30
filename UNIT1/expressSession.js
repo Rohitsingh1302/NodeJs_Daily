@@ -39,5 +39,5 @@ app.listen(PORT, () => {
 // 1. http://localhost:3000/set-session to set session data 
 // 2. http://localhost:3000/get-session to retrieve session data
 // 3. http://localhost:3000/logout to destroy the session
-// 4. http://localhost:3000/get-session to verify session is destroyed
+// Note: In a production environment, ensure to use secure cookies and a proper session store.
 
