@@ -40,4 +40,5 @@ app.listen(PORT, () => {
 // 2. http://localhost:3000/get-session to retrieve session data
 // 3. http://localhost:3000/logout to destroy the session
 // Note: In a production environment, ensure to use secure cookies and a proper session store.
+// This code sets up an Express server with session management using express-session
 
