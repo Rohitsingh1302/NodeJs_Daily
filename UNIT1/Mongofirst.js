@@ -14,3 +14,4 @@ getData();
 //node UNIT1/Mongofirst.js
 //npm install mongodb
 //make sure mongodb server is running
+//mongod
