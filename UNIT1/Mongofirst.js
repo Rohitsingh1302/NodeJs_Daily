@@ -12,3 +12,4 @@ async function getData(){
 }
 getData();
 //node UNIT1/Mongofirst.js
+//npm install mongodb
