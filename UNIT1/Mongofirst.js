@@ -11,3 +11,4 @@ async function getData(){
     console.log(data);
 }
 getData();
+//node UNIT1/Mongofirst.js
