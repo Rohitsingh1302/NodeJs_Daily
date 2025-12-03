@@ -15,3 +15,4 @@ getData();
 //npm install mongodb
 //make sure mongodb server is running
 //mongod
+//mongo
