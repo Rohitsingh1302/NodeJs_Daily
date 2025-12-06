@@ -17,3 +17,6 @@ getData();
 //mongod
 //mongo
 //show dbs
+//use youtube
+//show collections
+//db.videos.find().pretty()
