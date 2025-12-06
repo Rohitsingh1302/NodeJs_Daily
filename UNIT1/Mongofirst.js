@@ -20,3 +20,4 @@ getData();
 //use youtube
 //show collections
 //db.videos.find().pretty()
+//to insert data
