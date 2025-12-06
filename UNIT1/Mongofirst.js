@@ -23,3 +23,4 @@ getData();
 //to insert data
 //db.videos.insertMany([{name:"video1",views:1000,likes:200},{name:"video2",views:2000,likes:500}])
 //db.videos.find().pretty() 
+//to exit mongo shell
