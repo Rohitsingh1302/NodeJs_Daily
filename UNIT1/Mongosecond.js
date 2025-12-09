@@ -7,7 +7,7 @@ async function run(){
         await client.connect();
         console.log("Connected successfully to server");
         const db = client.db('LPU');
-        const users = db.collection('CLASS');
+        const users = db.collection('CLASS2');
 
         //CREATE 
         await users.insertOne({name: "John Deol", age: 22, course: "Computer Science"});
