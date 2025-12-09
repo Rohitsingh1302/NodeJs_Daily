@@ -12,9 +12,9 @@ async function run(){
         //CREATE 
         await users.insertOne({name: "John Deol", age: 22, course: "Computer Science"});
 
-        // //READ
-        // const allUsers = await users.find({}).toArray();
-        // console.log("All Users:", allUsers);
+        //READ
+        const allUsers = await users.find({}).toArray();
+        console.log("All Users:", allUsers);
 
         // //UPDATE
         // await users.updateOne({name: "John Doe"}, {$set: {age: 23}});
