@@ -10,19 +10,19 @@ async function run(){
         const users = db.collection('CLASS');
 
         //CREATE 
-        await users.insertOne({name: "John Doe", age: 22, course: "Computer Science"});
+        await users.insertOne({name: "John Deol", age: 22, course: "Computer Science"});
 
-        //READ
-        const allUsers = await users.find({}).toArray();
-        console.log("All Users:", allUsers);
+        // //READ
+        // const allUsers = await users.find({}).toArray();
+        // console.log("All Users:", allUsers);
 
-        //UPDATE
-        await users.updateOne({name: "John Doe"}, {$set: {age: 23}});
+        // //UPDATE
+        // await users.updateOne({name: "John Doe"}, {$set: {age: 23}});
 
-        //DELETE
-        await users.deleteOne({name: "John Doe"});
+        // //DELETE
+        // await users.deleteOne({name: "John Doe"});
 
-        
+
     }catch(err){
         console.error(err);
     }finally{
