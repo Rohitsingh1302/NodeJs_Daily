@@ -17,7 +17,7 @@ async function run(){
         console.log("All Users:", allUsers);
 
         // //UPDATE
-        // await users.updateOne({name: "John Doe"}, {$set: {age: 23}});
+        // await users.updateOne({name: "BOOBY Deol "}, {$set: {age: 23}});
 
         // //DELETE
         // await users.deleteOne({name: "John Doe"});
