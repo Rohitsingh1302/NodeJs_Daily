@@ -16,8 +16,8 @@ async function run(){
         const allUsers = await users.find({}).toArray();
         console.log("All Users:", allUsers);
 
-        // //UPDATE
-        // await users.updateOne({name: "BOOBY Deol "}, {$set: {age: 23}});
+        //UPDATE
+        await users.updateOne({name: "BOOBY Deol "}, {$set: {age: 23}});
 
         // //DELETE
         // await users.deleteOne({name: "John Doe"});
