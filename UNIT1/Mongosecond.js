@@ -21,7 +21,8 @@ async function run(){
 
         // //DELETE
         // await users.deleteOne({name: "John Doe"});
-
+        // console.log("Deleted John Doe");
+        // const remainingUsers = await users.find({}).toArray();
 
     }catch(err){
         console.error(err);
