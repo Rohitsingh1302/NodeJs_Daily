@@ -22,7 +22,8 @@ async function run(){
         // //DELETE
         // await users.deleteOne({name: "John Doe"});
         // console.log("Deleted John Doe");
-        // const remainingUsers = await users.find({}).toArray();\
+        // const remainingUsers = await users.find({}).toArray();
+        // console.log("Remaining Users:", remainingUsers);
         
 
     }catch(err){
