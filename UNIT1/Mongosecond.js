@@ -20,7 +20,8 @@ async function run(){
         await users.updateOne({name: "John Deol" }, {$set: {name: "Booby Deol ", age: 23}});
 
         // //DELETE
-        
+        // await users.deleteOne({name: "John Doe"});
+         
 
     }catch(err){
         console.error(err);
