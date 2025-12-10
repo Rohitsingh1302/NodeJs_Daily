@@ -20,12 +20,6 @@ async function run(){
         await users.updateOne({name: "John Deol" }, {$set: {name: "Booby Deol ", age: 23}});
 
         // //DELETE
-        // await users.deleteOne({name: "John Doe"});
-        // console.log("Deleted John Doe");
-        // const remainingUsers = await users.find({}).toArray();
-        // console.log("Remaining Users:", remainingUsers);
-        // console.log("Updated Users:");
-        c
         
 
     }catch(err){
