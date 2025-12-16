@@ -39,10 +39,10 @@ async function main() {
   // DELETE
   const deleteRes = await client.query(
     "DELETE FROM student WHERE id = $1 RETURNING *",
-    [1]
+    [1
   );
   console.log("Deleted:", deleteRes.rows[0]);
 
   await client.end();
 }
-main().catch((err) => console.error("Error:", err));
+
