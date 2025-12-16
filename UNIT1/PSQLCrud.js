@@ -30,7 +30,7 @@ async function main() {
   console.log("All students:", readRes.rows);
 
   // UPDATE
-  const updateRes = await client.query(
+   updateRes = await client.query(
     "UPDATE student SET name = $1 WHERE id = $2 RETURNING *",
     ["Bob", 1]
   );
@@ -42,7 +42,6 @@ async function main() {
     [1]
   );
   console.log("Deleted:", deleteRes.rows[0]);
-
   await client.end();
 }
 
