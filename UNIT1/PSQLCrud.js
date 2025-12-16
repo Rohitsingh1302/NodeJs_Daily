@@ -44,6 +44,3 @@ async function main() {
   console.log("Deleted:", deleteRes.rows[0]);
 
   await client.end();
-}
-
-main();
