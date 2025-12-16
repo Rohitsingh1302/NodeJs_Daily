@@ -45,3 +45,4 @@ async function main() {
 
   await client.end();
 }
+main().catch((err) => console.error("Error:", err));
