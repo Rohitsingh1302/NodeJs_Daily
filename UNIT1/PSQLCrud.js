@@ -17,7 +17,6 @@ async function main() {
       name TEXT NOT NULL
     );
   `);
-
   // CREATE
   const createRes = await client.query(
     "INSERT INTO student (name) VALUES ($1) RETURNING *",
