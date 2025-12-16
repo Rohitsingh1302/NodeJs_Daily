@@ -43,3 +43,5 @@ app.listen(5000, () => {
 // output way:
 // To test the middleware, you can make GET requests to the routes with the 'age' query parameter.
 // Example: http://localhost:5000/home?age=20
+// what  middleeware do write in para?
+// Middleware functions in Express.js are functions that have access to the request object (req),
