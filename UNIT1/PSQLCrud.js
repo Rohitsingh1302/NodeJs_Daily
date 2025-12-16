@@ -39,7 +39,7 @@ async function main() {
   // DELETE
   const deleteRes = await client.query(
     "DELETE FROM student WHERE id = $1 RETURNING *",
-    [1
+    [1]
   );
   console.log("Deleted:", deleteRes.rows[0]);
 
