@@ -23,7 +23,6 @@ async function main() {
     ["Alice"]
   );
   console.log("Created:", createRes.rows[0]);
-
   // READ
   const readRes = await client.query("SELECT * FROM student");
   console.log("All students:", readRes.rows);
