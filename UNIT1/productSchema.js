@@ -1,3 +1,4 @@
+//nahi hua run
 const mongoose = require('mongoose');
 const productSchema = mongoose.Schema({
     name: String,
